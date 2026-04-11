@@ -1,0 +1,35 @@
+# Python / Environment
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset / Media
+*.zip
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+dataset/
+datasets/
+data/
+YOLOv8/datasets/
+YOLOv8/dataset/
+YOLOv8/data/
+
+# Hasil Training model / Weights
+runs/
+YOLOv8/runs/
+outputs/
+YOLOv8/outputs/
+*.pt
+*.onnx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+==================================================
+PANDUAN MENJALANKAN APLIKASI KAMERA PYQT5 - YOLOv8
+==================================================
+
+Karena virtual environment (venv) sudah digabungkan menjadi satu kesatuan 
+dengan YOLOv8 agar pendeteksian berjalan realtime (menggunakan GPU/CUDA), 
+berikut adalah urutan perintah wajib setiap kali ingin menjalankan programnya:
+
+1. Buka Terminal (PowerShell) atau Buka Terminal di Visual Studio Code.
+2. Aktifkan Virtual Environment YOLOv8 dengan urutan perintah berikut:
+
+   cd "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8"
+   .\.venv\Scripts\Activate.ps1
+
+3. (Alternatif) Jika Anda menggunakan Command Prompt (CMD) biasa, aktifkan dengan:
+   
+   .\.venv\Scripts\activate.bat
+
+4. Setelah venv aktif (ditandai dengan munculnya tulisan "(.venv)" di pojok kiri perintah), 
+   berpindahlah ke folder aplikasi GUI-nya:
+
+   cd "..\pengujian real-time\PYQT5_Camera_Live"
+
+5. Terakhir, jalankan aplikasinya:
+   
+   python main.py
+
+==================================================
+CATATAN PENTING:
+- Jangan membuat atau mengaktifkan venv lagi di dalam folder PYQT5_Camera_Live.
+- Selalu andalkan folder ".venv" yang ada di dalam folder YOLOv8.
+- Hal ini menjamin bahwa program kamera akan menggunakan versi PyTorch (CUDA) 
+  yang lebih stabil dan dapat menggunakan kartu grafis (GPU) agar tidak lag.
+==================================================
