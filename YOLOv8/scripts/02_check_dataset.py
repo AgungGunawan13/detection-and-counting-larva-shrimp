@@ -62,7 +62,7 @@ def main():
         print(f" images: {count_images(images_dir)}")
         print(f" labels: {count_labels(labels_dir) if labels_dir.exists() else 0} (labels_dir exists: {labels_dir.exists()})")
 
-    print("\nKalau images/labels masuk akal, lanjut Step 10 (train 1 model dulu).")
+    print("\nSelesai")
 
 if __name__ == "__main__":
     main()
