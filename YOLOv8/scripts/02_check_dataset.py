@@ -2,7 +2,8 @@ from pathlib import Path
 import yaml
 from utils import find_yaml, print_header
 
-EXTRACTED_DIR = Path("data/extracted")
+BASE_DIR = Path(__file__).resolve().parent.parent
+EXTRACTED_DIR = BASE_DIR / "data/extracted"
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 def count_images(images_dir: Path):

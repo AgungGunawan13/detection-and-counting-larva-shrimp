@@ -2,11 +2,12 @@ from pathlib import Path
 from ultralytics import YOLO
 from utils import ensure_dir, find_yaml, print_header, timestamp
 
-EXTRACTED_DIR = Path("data/extracted")
-RUNS_DIR = Path("outputs/runs")
+BASE_DIR = Path(__file__).resolve().parent.parent
+EXTRACTED_DIR = BASE_DIR / "data/extracted"
+RUNS_DIR = BASE_DIR / "outputs/runs"
 
 DEVICE = 0
-EPOCHS = 50
+EPOCHS = 100
 
 # Untuk RTX 3050 4GB:
 # - kalau OOM pada L/X, turunkan IMG_SIZE jadi 512
@@ -57,6 +58,11 @@ def main():
             exist_ok=True,
             plots=True,
             patience=20,
+            cos_lr=True,          
+            close_mosaic=15,      
+            degrees=45.0,        
+            mixup=0.15,          
+            copy_paste=0.2,  
         )
 
         print(f"[DONE] {model_name}")

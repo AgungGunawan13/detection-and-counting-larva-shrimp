@@ -2,8 +2,9 @@ from pathlib import Path
 import zipfile
 from utils import ensure_dir, print_header
 
-RAW_DIR = Path("data/raw")
-OUT_DIR = Path("data/extracted")
+BASE_DIR = Path(__file__).resolve().parent.parent
+RAW_DIR = BASE_DIR / "data/raw"
+OUT_DIR = BASE_DIR / "data/extracted"
 
 def unzip_one(zip_path: Path, dest_dir: Path):
     ensure_dir(dest_dir)
