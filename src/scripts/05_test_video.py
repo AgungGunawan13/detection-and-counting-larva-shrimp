@@ -9,13 +9,13 @@ from collections import defaultdict
 
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
-WEIGHTS_PATH = ROOT_DIR / "YOLOv8" / "outputs" / "runs" / "yolov8s" / "train_20260418-000303" / "weights" / "best.pt"
-VIDEO_PATH   = ROOT_DIR / "YOLOv8" / "data" / "k.mp4"
-OUTPUT_DIR   = ROOT_DIR / "YOLOv8" / "outputs" / "reports_video"
+WEIGHTS_PATH = ROOT_DIR / "models" / "trained" / "best.pt"
+VIDEO_PATH   = ROOT_DIR / "data" / "pengujian video"/"150"/"0.3x24.mp4"
+OUTPUT_DIR   = ROOT_DIR / "outputs" / "reports_video"
 
 CONFIDENCE = 0.15
-IMG_SIZE   = 1280
-MANUAL_COUNT = 50
+IMG_SIZE   = 640
+MANUAL_COUNT = 150
 
 LINE_POSITION_RATIO = 0.6
 OFFSET = 20
@@ -27,10 +27,6 @@ BRIGHTNESS_ALPHA = 0.8 # Mengurangi brightness 20% (1.0 = normal)
 # ===============================
 
 def main():
-    print("\n--- PENGATURAN KECEPATAN VIDEO HASIL ---")
-    print("1: Normal (Default)")
-    print("2: Slow Motion (Diperlambat menjadi 30% / 0.3x)")
-    pilihan_speed = input("Pilih kecepatan video (1/2): ").strip()
 
     weights    = Path(WEIGHTS_PATH)
     video_path = Path(VIDEO_PATH)
@@ -60,7 +56,7 @@ def main():
     garis_atas  = LINE_POS - OFFSET
     garis_bawah = LINE_POS + OFFSET
 
-    fps_out = fps * 0.3 if pilihan_speed == "2" else fps
+    fps_out = fps
     output_video_path = output_dir / f"{video_path.stem}_counted.mp4"
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out    = cv2.VideoWriter(str(output_video_path), fourcc, fps_out, (width, height))
@@ -94,10 +90,11 @@ def main():
         results = model.track(
             source=frame,
             conf=CONFIDENCE,
+            iou=0.4, # Mencegah 1 benur terdeteksi jadi 2 kotak (head & tail)
             imgsz=IMG_SIZE,
             device=DEVICE,
             persist=True,
-            tracker=str(ROOT_DIR / "YOLOv8" / "scripts" / "custom_tracker.yaml"),
+            tracker=str(ROOT_DIR / "src" / "scripts" / "custom_tracker.yaml"),
             verbose=False
         )
 
@@ -108,9 +105,7 @@ def main():
 
         annotated_frame = r.plot()
 
-        # --- Gambar garis zona ---
-        cv2.line(annotated_frame, (0, garis_atas),  (width, garis_atas),  (255, 200, 0), 1)
-        cv2.line(annotated_frame, (0, garis_bawah), (width, garis_bawah), (255, 200, 0), 1)
+        # --- Gambar garis zona (Kini 1 Garis Murni) ---
         line_color = (0, 255, 0) if flash_remaining > 0 else (0, 0, 255)
         line_thick = 8           if flash_remaining > 0 else 3
         cv2.line(annotated_frame, (0, LINE_POS), (width, LINE_POS), line_color, line_thick)
@@ -138,33 +133,29 @@ def main():
                              track_paths[track_id][i], (0, 165, 255), 2)
 
                 if track_id not in counted_ids:
-                    info = track_history.get(track_id, {'zone': None, 'last_seen': frame_count})
+                    # Ambil posisi Y dari frame sebelumnya
+                    if len(track_paths[track_id]) >= 2:
+                        prev_cy = track_paths[track_id][-2][1]
+                        
+                        if ARAH == "TOP_BOTTOM":
+                            # Melintasi garis merah dari atas ke bawah
+                            if prev_cy < LINE_POS and cy >= LINE_POS:
+                                total_benur += 1
+                                counted_ids.add(track_id)
+                                flash_remaining = 8
+                                print(f"[Frame {frame_count}] +1 Benur! ID={track_id} | Total={total_benur}")
+                                
+                        elif ARAH == "BOTTOM_TOP":
+                            # Melintasi garis merah dari bawah ke atas
+                            if prev_cy > LINE_POS and cy <= LINE_POS:
+                                total_benur += 1
+                                counted_ids.add(track_id)
+                                flash_remaining = 8
+                                print(f"[Frame {frame_count}] +1 Benur! ID={track_id} | Total={total_benur}")
+                                
+                    # Simpan waktu terakhir dilihat
+                    info = track_history.get(track_id, {'last_seen': frame_count})
                     info['last_seen'] = frame_count
-
-                    if ARAH == "TOP_BOTTOM":
-                        # Benur bergerak dari atas ke bawah
-                        # Harus terlihat di ATAS garis dulu, baru dihitung saat di BAWAH
-                        if cy < garis_atas:
-                            info['zone'] = 'ATAS'
-                        elif cy > garis_bawah and info['zone'] == 'ATAS':
-                            total_benur += 1
-                            counted_ids.add(track_id)
-                            info['zone'] = 'BAWAH'
-                            flash_remaining = 8
-                            print(f"[Frame {frame_count}] +1 Benur! ID={track_id} | Total={total_benur}")
-
-                    elif ARAH == "BOTTOM_TOP":
-                        # Benur bergerak dari bawah ke atas
-                        # Harus terlihat di BAWAH garis dulu, baru dihitung saat di ATAS
-                        if cy > garis_bawah:
-                            info['zone'] = 'BAWAH'
-                        elif cy < garis_atas and info['zone'] == 'BAWAH':
-                            total_benur += 1
-                            counted_ids.add(track_id)
-                            info['zone'] = 'ATAS'
-                            flash_remaining = 8
-                            print(f"[Frame {frame_count}] +1 Benur! ID={track_id} | Total={total_benur}")
-
                     track_history[track_id] = info
 
         # Bersihkan ID kedaluwarsa
@@ -220,7 +211,7 @@ def main():
         print("-"*50)
         print("  EVALUASI AKURASI")
         print(f"  Ground-truth (manual): {MANUAL_COUNT}")
-        print(f"  Sistem AI            : {total_benur}")
+        print(f"  Sistem               : {total_benur}")
         print(f"  Selisih / Error      : {selisih} ({error_rate:.2f}%)")
         print(f"  Akurasi              : {akurasi:.2f}%")
 

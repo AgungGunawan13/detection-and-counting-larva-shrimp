@@ -1,9 +1,0 @@
-PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian> python YOLOv8\scripts\01_unzip_dataset.py
-
-======================================================================
-UNZIP DATASET
-======================================================================
-[OK] Unzip: dataset.zip ->.\data\extracted\dataset
-
-Selesai unzip.
-

@@ -1,35 +1,62 @@
-# Python / Environment
-.venv/
+# Environments
+.env
+.venv
 env/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+venv/
+ENV/
 
-# Dataset / Media
-*.zip
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# YOLOv8 Specific & Large Files
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# Datasets and Outputs
+data/
+outputs/
+docs/
+laporan/
+trash/
+models/
+
+# Logs and Media
+*.log
 *.mp4
 *.avi
+*.mkv
 *.jpg
 *.jpeg
 *.png
-dataset/
-datasets/
-data/
-YOLOv8/datasets/
-YOLOv8/dataset/
-YOLOv8/data/
+*.txt
 
-# Hasil Training model / Weights
-runs/
-YOLOv8/runs/
-outputs/
-YOLOv8/outputs/
-*.pt
-*.onnx
+# Keep requirements and readme
+!requirements.txt
+!README.md
 
-# IDE / OS
+# IDE
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db

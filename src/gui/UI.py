@@ -36,11 +36,7 @@ class Ui_Dialog(object):
         self.view_kamera = QtWidgets.QListView(Dialog)
         self.view_kamera.setGeometry(QtCore.QRect(360, 70, 411, 531))
         self.view_kamera.setObjectName("view_kamera")
-        self.BATAS_GARIS = QtWidgets.QFrame(Dialog)
-        self.BATAS_GARIS.setGeometry(QtCore.QRect(360, 520, 411, 20))
-        self.BATAS_GARIS.setFrameShape(QtWidgets.QFrame.HLine)
-        self.BATAS_GARIS.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.BATAS_GARIS.setObjectName("BATAS_GARIS")
+
         self.LIST_INFERENCE_TIME = QtWidgets.QScrollArea(Dialog)
         self.LIST_INFERENCE_TIME.setGeometry(QtCore.QRect(10, 70, 331, 211))
         font = QtGui.QFont()

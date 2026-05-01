@@ -5,8 +5,8 @@ from pathlib import Path
 # ======= KONFIGURASI ===========
 # ===============================
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
-VIDEO_PATH = ROOT_DIR / "YOLOv8" / "data" / "VID_20260421_145813.mp4"
-OUTPUT_DIR = ROOT_DIR / "YOLOv8" / "data"
+VIDEO_PATH = ROOT_DIR / "data" / "VID_20260421_145813.mp4"
+OUTPUT_DIR = ROOT_DIR / "data"
 # ===============================
 
 def main():

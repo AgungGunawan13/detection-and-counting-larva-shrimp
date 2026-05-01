@@ -21,7 +21,7 @@ def find_yaml(root_dir: str | Path):
     return yamls[0] if yamls else None
 
 # Root folder project (2 level di atas file ini)
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 def chdir_project_root():
     os.chdir(PROJECT_ROOT)

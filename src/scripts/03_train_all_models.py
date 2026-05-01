@@ -2,7 +2,7 @@ from pathlib import Path
 from ultralytics import YOLO
 from utils import ensure_dir, find_yaml, print_header, timestamp
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 EXTRACTED_DIR = BASE_DIR / "data/extracted"
 RUNS_DIR = BASE_DIR / "outputs/runs"
 

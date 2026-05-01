@@ -2,7 +2,7 @@ from pathlib import Path
 import zipfile
 from utils import ensure_dir, print_header
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 RAW_DIR = BASE_DIR / "data/raw"
 OUT_DIR = BASE_DIR / "data/extracted"
 

@@ -2,7 +2,7 @@ from pathlib import Path
 import yaml
 from utils import find_yaml, print_header
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 EXTRACTED_DIR = BASE_DIR / "data/extracted"
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
