@@ -2,12 +2,13 @@
 
 Repositori ini memuat *source code* murni dari sistem deteksi dan perhitungan benur udang secara _real-time_ menggunakan YOLOv8 dan antarmuka pengguna grafis (GUI) berbasis PyQt5.
 
-**Catatan**: Repositori ini hanya berisi kode sumber. Dataset (`data/`), model terlatih (`models/`), luaran sistem (`outputs/`), dan file dokumentasi hasil (`docs/`) sengaja diabaikan (`.gitignore`) untuk menghindari pembengkakan ukuran repositori GitHub.
+**Catatan**: Repositori ini hanya berisi kode sumber. Dataset (`data/`), model terlatih (`models/`), luaran sistem (`outputs/`), catatan log (`logs/`), dan file dokumentasi hasil (`docs/`) sengaja diabaikan (`.gitignore`) untuk menghindari pembengkakan ukuran repositori GitHub.
 
 ## Struktur Repositori
 
 ```text
 pengujian/
+├── logs/                  # Folder untuk menyimpan log terminal/sistem
 ├── src/
 │   ├── gui/                 # Source code untuk antarmuka pengguna (PyQt5)
 │   │   ├── main.py          # Entry point aplikasi GUI

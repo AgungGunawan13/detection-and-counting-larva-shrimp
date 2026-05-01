@@ -42,6 +42,7 @@ docs/
 laporan/
 trash/
 models/
+logs/
 
 # Logs and Media
 *.log
