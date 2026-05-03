@@ -52,7 +52,6 @@ logs/
 *.jpg
 *.jpeg
 *.png
-*.txt
 
 # Keep requirements and readme
 !requirements.txt

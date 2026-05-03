@@ -21,7 +21,6 @@ pengujian/
 │       ├── 04_eval_and_compare.py
 │       ├── 05_test_video.py
 │       ├── 06_rotate_video.py
-│       ├── 06_test_webcam.py
 │       └── custom_tracker.yaml
 ├── README.md                # Dokumentasi utama proyek
 ├── requirements.txt         # Daftar dependensi library Python
