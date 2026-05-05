@@ -1,8 +1,8 @@
 pelatihan 75
 
-.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
+.venv) PS [SKRIPSI_ROOT]\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
 
-Loading model dari: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
+Loading model dari: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
 
 ==================================================
 ARAH          : TOP_BOTTOM
@@ -225,10 +225,10 @@ SELESAI.
   Akurasi              : 85.33%
 ==================================================
 
-Output: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\reports_video\1x120_counted.mp4
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
+Output: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\reports_video\1x120_counted.mp4
+(.venv) PS [SKRIPSI_ROOT]\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
 
-Loading model dari: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
+Loading model dari: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
 
 ==================================================
 ARAH          : TOP_BOTTOM
@@ -419,9 +419,9 @@ SELESAI.
   Akurasi              : 86.67%
 ==================================================
 
-Output: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\reports_video\0.7x60_counted.mp4
+Output: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\reports_video\0.7x60_counted.mp4
 
-Loading model dari: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
+Loading model dari: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
 
 ==================================================
 ARAH          : TOP_BOTTOM
@@ -562,12 +562,12 @@ SELESAI.
   Akurasi              : 78.67%
 ==================================================
 
-Output: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\reports_video\0.5x30_counted.mp4
+Output: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\reports_video\0.5x30_counted.mp4
 
 
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
+(.venv) PS [SKRIPSI_ROOT]\coding\pengujian\YOLOv8> python ".\scripts\05_test_video.py"
 
-Loading model dari: C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
+Loading model dari: [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8s\train_20260418-000303\weights\best.pt
 
 ==================================================
 ARAH          : TOP_BOTTOM
@@ -753,4 +753,4 @@ SELESAI.
 
 Output: .YOLOv8\outputs\reports_video\0.3x24_counted.mp4
 
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8> 
+(.venv) PS [SKRIPSI_ROOT]\coding\pengujian\YOLOv8> 

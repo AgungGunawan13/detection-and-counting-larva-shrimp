@@ -1,15 +1,15 @@
   R      mAP50  mAP50-95): 91% ━━━━━━━━━                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 11/11 16.4it/s 0.7s
                    all         22        182      0.931      0.816      0.896      0.498
 Speed: 0.3ms preprocess, 25.0ms inference, 0.0ms loss, 1.4ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% ━━━━━━━━━                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 11/11 16.4it/s 0.7s
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% ━━━━━━━━━                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 11/11 16.4it/s 0.7s
                    all         22        182      0.931      0.816      0.896      0.498
 Speed: 0.3ms preprocess, 25.0ms inference, 0.0ms loss, 1.4ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\━━━━ 11/11 16.4it/s 0.7s
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\━━━━ 11/11 16.4it/s 0.7s
                    all         22        182      0.931      0.816      0.896      0.498
 Speed: 0.3ms preprocess, 25.0ms inference, 0.0ms loss, 1.4ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\                   all         22        182      0.931      0.816      0.896      0.498
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\                   all         22        182      0.931      0.816      0.896      0.498
 Speed: 0.3ms preprocess, 25.0ms inference, 0.0ms loss, 1.4ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\yolov8x\train_20260217-215406
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\yolov8x\train_20260217-215406
 [DONE] yolov8x
 
 Selesai Step 12.
@@ -18,7 +18,7 @@ outputs\runs\yolov8x\train_20260217-215406
 
 Selesai Step 12.
 Lanjut Step 13 (evaluasi semua model).
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 neDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 
@@ -28,16 +28,16 @@ STEP 14 - COMPARE RESULTS (n/s/m/l/x)
 STEP 14 - COMPARE RESULTS (n/s/m/l/x)
 ======================================================================
 Traceback (most recent call last):
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\06_eval_all_m  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\06_eval_all_models.py", line 82, in <module>
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\06_eval_all_m  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\06_eval_all_models.py", line 82, in <module>
     main()
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\06_eval_all_models.py", line 35, in main
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\06_eval_all_models.py", line 35, in main
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 ======================================================================
 STEP 13 - EVAL ALL MODELS (confusion matrix + plots)
@@ -45,36 +45,36 @@ STEP 13 - EVAL ALL MODELS (confusion matrix + plots)
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 ======================================================================
 STEP 13 - EVAL ALL MODELS (confusion matrix + plots)
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 ======================================================================
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/O    raise FileNotFoundError(
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[USER_HOME]/O    raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
-/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[USER_HOME](.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
+/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 
 ======================================================================
@@ -92,14 +92,14 @@ STEP 13 - EVAL ALL MODELS (confusion matrix + plots)
 
 Selesai Step 13.
 Lanjut Step 14 (buat laporan perbandingan).
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 
 [SKIP] best.pt tidak ditemukan untuk yolov8s
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
 Selesai Step 13.
 Lanjut Step 14 (buat laporan perbandingan).
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 [SKIP] best.pt tidak ditemukan untuk yolov8s
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
@@ -124,23 +124,23 @@ Selesai Step 13.
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
 Selesai Step 13.                                                                      dir . -Recurse -Filter best.pt | Select-Object FullNamegan).
-   env) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+   env) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 FullName
 --------
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
 [SKIP] best.pt tidak ditemukan untuk yolov8s
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
 Selesai Step 13.                                                                      dir . -Recurse -Filter best.pt | Select-Object FullNamegan).
-   env) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+   env) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 FullName
 --------
 [SKIP] best.pt tidak ditemukan untuk yolov8s
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
 Selesai Step 13.                                                                      dir . -Recurse -Filter best.pt | Select-Object FullNamegan).
-   env) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+   env) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 [SKIP] best.pt tidak ditemukan untuk yolov8s
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
@@ -156,19 +156,19 @@ Selesai Step 13.                                                                
 [SKIP] best.pt tidak ditemukan untuk yolov8x
 
 Selesai Step 13.                                                                      dir . -Recurse -Filter best.pt | Select-Object FullNamegan).
-   env) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+   env) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 FullName
 --------
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
+[SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\runs\...
 
 
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/06_eval_all_models.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/06_eval_all_models.py"
 
 ======================================================================
 STEP 13 - EVAL ALL MODELS (GLOBAL SEARCH best.pt)
@@ -189,20 +189,20 @@ EVAL yolov8x
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 113 layers, 68,124,531 parameters, 0 gradients, 257.4 GFLOPs
 val: Fast image access  (ping: 0.10.0 ms, read: 694.0225.9 MB/s, size: 340.8 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.6s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2it/s 1.7s
                    all         22        182      0.931      0.812      0.898      0.497
 Speed: 3.8ms preprocess, 63.1ms inference, 0.0ms loss, 1.3ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8x\val
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8x\val
 
 [RUN] split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.50.1 ms, read: 218.230.8 MB/s, size: 295.6 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.1s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.1s/it 2.3s
                    all         21        125      0.908      0.848      0.907      0.535
 Speed: 1.2ms preprocess, 70.7ms inference, 0.0ms loss, 1.3ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8x\test
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8x\test
 
 [DONE] yolov8x
 
@@ -225,8 +225,8 @@ val: Fast image access  (ping: 0.00.0 ms, read: 1507.5444.9 MB/s, size: 263.3 KB
 Model summary (fused): 113 layers, 43,607,379 parameters, 0 gradients, 164.8 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1507.5444.9 MB/s, size: 263.3 KB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1507.5444.9 MB/s, size: 263.3 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 5.1s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0s/it 2                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 5.1s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0s/it 2.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0s/it 2.0s
                    all         22        182      0.907      0.857       0.91      0.519
@@ -236,17 +236,17 @@ Speed: 4.5ms preprocess, 46.8ms inference, 0.0ms loss, 1.2ms postprocess per ima
                    all         22        182      0.907      0.857       0.91      0.519
 Speed: 4.5ms preprocess, 46.8ms inference, 0.0ms loss, 1.2ms postprocess per image
 Speed: 4.5ms preprocess, 46.8ms inference, 0.0ms loss, 1.2ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8l\val
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8l\val
 8l\val
 
 [RUN] split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 2212.6718.2 MB/s, size: 313.3 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.3s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2it/s 1.7s
                    all         21        125       0.87       0.84       0.91      0.563
 Speed: 5.0ms preprocess, 43.7ms inference, 0.0ms loss, 0.6ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8l\test
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8l\test
 
 [DONE] yolov8l
 
@@ -259,23 +259,23 @@ EVAL yolov8m
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 93 layers, 25,840,339 parameters, 0 gradients, 78.7 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1733.9483.3 MB/s, size: 261.7 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.5s/it 1.                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.1it/s 1.8s
                    all         22        182      0.945      0.885      0.958      0.543
 Speed: 4.1ms preprocess, 34.6ms inference, 0.0ms loss, 2.6ms postprocess per image
 .8s
                    all         22        182      0.945      0.885      0.958      0.543
 Speed: 4.1ms preprocess, 34.6ms inference, 0.0ms loss, 2.6ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8m\val
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8m\val
 
 [RUN] split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 2316.2386.7 MB/s, size: 291.7 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.3s
                    all         21        125       0.91       0.84      0.911      0.574
 Speed: 7.9ms preprocess, 33.4ms inference, 0.0ms loss, 4.4ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8m\test
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8m\test
 
 [DONE] yolov8m
 
@@ -288,16 +288,16 @@ EVAL yolov8s
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOPs
 val: Fast image access  (ping: 0.10.0 ms, read: 551.298.5 MB/s, size: 345.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
                    all         22        182      0.924      0.935      0.963      0.569
 Speed: 5.7ms preprocess, 28.0ms inference, 0.0ms loss, 4.7ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8s\val
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8s\val
 
 [RUN] split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.20.1 ms, read: 396.4220.4 MB/s, size: 385.2 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
 ======================================================================
 [WEIGHTS] runs\detect\outputs\runs\yolov8n\train_20260217-215406\weights\best.pt
 
@@ -305,37 +305,37 @@ val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
 val: Fast image access  (ping: 0.10.1 ms, read: 858.0331.7 MB/s, size: 314.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.3s
                    all         22        182       0.92      0.907      0.943      0.541
 Speed: 5.9ms preprocess, 23.8ms inference, 0.0ms loss, 5.0ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\val
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\val
 
 [RUN] split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 915.5258.3 MB/s, size: 321.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.5s/it 1.9s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 8.0ms preprocess, 21.2ms inference, 0.0ms loss, 4.8ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8nUltralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8nUltralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 915.5258.3 MB/s, size: 321.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.5s/it 1.9s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 8.0ms preprocess, 21.2ms inference, 0.0ms loss, 4.8ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8ncache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8ncache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.5s/it 1.9s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 8.0ms preprocess, 21.2ms inference, 0.0ms loss, 4.8ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8n                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8n                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 8.0ms preprocess, 21.2ms inference, 0.0ms loss, 4.8ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8n                   all         21        125      0.886      0.888      0.925      0.557
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8n                   all         21        125      0.886      0.888      0.925      0.557
 Speed: 8.0ms preprocess, 21.2ms inference, 0.0ms loss, 4.8ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\test
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\test
 
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\test
+Results saved to [SKRIPSI_ROOT]\yolov8_benur_project\runs\detect\outputs\eval\yolov8n\test
 
 \test
 
@@ -344,9 +344,9 @@ Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_ben
 [DONE] yolov8n
 
 Selesai Step 13. Confusion matrix ada di outputs/eval/<model>/val/ dan /test/
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/Selesai Step 13. Confusion matrix ada di outputs/eval/<model>/val/ dan /test/
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yol(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
-semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[USER_HOME]/OneDrive/Documents/Selesai Step 13. Confusion matrix ada di outputs/eval/<model>/val/ dan /test/
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yol(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
+semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 ov8_benur_project/scripts/07_compare_results.py"
 
 
@@ -357,14 +357,14 @@ STEP 14 - COMPARE RESULTS (n/s/m/l/x)
 ======================================================================
 ======================================================================
 Traceback (most recent call last):
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 82, in <module>
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 82, in <module>
     main()
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 35, in main
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 35, in main
     raise FileNotFoundError(
 FileNotFoundError: Tidak menemukan results.csv dari evaluasi. Pastikan Step 13 sukses.
 Cek: outputs/eval/<model>/(val|test)/results.csv
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 
 ======================================================================
 STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
@@ -374,8 +374,8 @@ STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
 [SKIP] yolov8n tidak punya best/last di outputs/runs/<model>/weights/
 [SKIP] yolov8s tidak punya best/last di outputs/runs/<model>/weights/
 [SKIP] yolov8x tidak punya best/last di outputs/runs/<model>/weights/
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 
 ======================================================================
 STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
@@ -385,7 +385,7 @@ STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
 [SKIP] yolov8n tidak punya best/last di outputs/runs/<model>/weights/
 [SKIP] yolov8s tidak punya best/last di outputs/runs/<model>/weights/
 [SKIP] yolov8x tidak punya best/last di outputs/runs/<model>/weights/
-semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 
 ======================================================================
 STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
@@ -419,12 +419,12 @@ STEP 14 (FIX) - COMPARE RESULTS via model.val() metrics
 [SKIP] yolov8x tidak punya best/last di outputs/runs/<model>/weights/
 [SKIP] yolov8x tidak punya best/last di outputs/runs/<model>/weights/
 Traceback (most recent call last):
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 108, in <module>
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 108, in <module>
     main()
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 68, in main
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 68, in main
     raise RuntimeError("Tidak ada metrik yang terkumpul. Pastikan weights valid dan dataset yaml benar.")
 RuntimeError: Tidak ada metrik yang terkumpul. Pastikan weights valid dan dataset yaml benar.
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 
 
 
@@ -468,13 +468,13 @@ RuntimeError: Tidak ada metrik yang terkumpul. Pastikan weights valid dan datase
 
                                                                                       ^C
                                                                                       ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolsemester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[USER_HOME]/OneDrive/Documents/(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolsemester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 Traceback (most recent call last):
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 4, in <module>
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 4, in <module>
     from utils import ensure_dir, find_yaml, print_header, chdir_project_root, PROJECT_ROOT
-ImportError: cannot import name 'chdir_project_root' from 'utils' (c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\utils.py)
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+ImportError: cannot import name 'chdir_project_root' from 'utils' ([SKRIPSI_ROOT]\yolov8_benur_project\scripts\utils.py)
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 
 ======================================================================
 STEP 14 (FIX) - COMPARE RESULTS (global best.pt search)
@@ -489,14 +489,14 @@ Weights yang akan dipakai:
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 113 layers, 68,124,531 parameters, 0 gradients, 257.4 GFLOPs
 val: Fast image access  (ping: 0.10.0 ms, read: 1128.5202.1 MB/s, size: 275.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 5.1s/it 1.5s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.1it/s 1.8s
                    all         22        182      0.931      0.812      0.898      0.497
 Speed: 1.6ms preprocess, 61.5ms inference, 0.0ms loss, 3.2ms postprocess per image
 [EVAL] yolov8x split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1959.0300.6 MB/s, size: 264.2 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.0s/it 1.8s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0s/it 2.0s
                    all         21        125      0.908      0.848      0.907      0.535
 Speed: 1.1ms preprocess, 61.4ms inference, 0.0ms loss, 1.2ms postprocess per image
@@ -504,14 +504,14 @@ Speed: 1.1ms preprocess, 61.4ms inference, 0.0ms loss, 1.2ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 113 layers, 43,607,379 parameters, 0 gradients, 164.8 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1520.0415.7 MB/s, size: 273.5 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.9s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.5it/s 1.3s
                    all         22        182      0.907      0.857       0.91      0.519
 Speed: 1.3ms preprocess, 36.0ms inference, 0.0ms loss, 1.6ms postprocess per image
 [EVAL] yolov8l split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1364.3528.0 MB/s, size: 273.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 7.0s/it 2.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.1s/it 2.3s
                    all         21        125       0.87       0.84       0.91      0.563
 Speed: 1.7ms preprocess, 38.5ms inference, 0.0ms loss, 1.6ms postprocess per image
@@ -519,14 +519,14 @@ Speed: 1.7ms preprocess, 38.5ms inference, 0.0ms loss, 1.6ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 93 layers, 25,840,339 parameters, 0 gradients, 78.7 GFLOPs
 val: Fast image access  (ping: 0.10.0 ms, read: 547.3229.9 MB/s, size: 258.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 6.2s/it 1.9s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0s/it 2.0s
                    all         22        182      0.945      0.885      0.958      0.543
 Speed: 1.8ms preprocess, 27.0ms inference, 0.0ms loss, 2.3ms postprocess per image
 [EVAL] yolov8m split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 706.2253.0 MB/s, size: 337.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.1s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.5it/s 1.4s
                    all         21        125       0.91       0.84      0.911      0.574
 Speed: 0.9ms preprocess, 25.6ms inference, 0.0ms loss, 1.3ms postprocess per image
@@ -534,14 +534,14 @@ Speed: 0.9ms preprocess, 25.6ms inference, 0.0ms loss, 1.3ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1358.0376.8 MB/s, size: 269.4 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.6s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.7it/s 1.2s
                    all         22        182      0.924      0.935      0.963      0.569
 Speed: 2.7ms preprocess, 19.0ms inference, 0.0ms loss, 1.4ms postprocess per image
 [EVAL] yolov8s split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1835.3241.3 MB/s, size: 246.7 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.4s/it 1.3s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.4it/s 1.4s
                    all         21        125      0.912      0.872      0.927       0.59
 Speed: 2.6ms preprocess, 25.4ms inference, 0.0ms loss, 1.5ms postprocess per image
@@ -549,22 +549,22 @@ Speed: 2.6ms preprocess, 25.4ms inference, 0.0ms loss, 1.5ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1654.9528.0 MB/s, size: 397.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.7s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.7it/s 1.2s
                    all         22        182       0.92      0.907      0.943      0.541
 Speed: 2.7ms preprocess, 13.9ms inference, 0.0ms loss, 0.9ms postprocess per image
 [EVAL] yolov8n split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 1285.5505.7 MB/s, size: 332.8 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.1s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.5it/s 1.3s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 2.8ms preprocess, 17.1ms inference, 0.0ms loss, 1.1ms postprocess per image
 Traceback (most recent call last):
-  File "C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\.venv\Lib\site-packages\pandas\compat\_optional.py", line 158, in import_optional_dependency
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\.venv\Lib\site-packages\pandas\compat\_optional.py", line 158, in import_optional_dependency
     module = importlib.import_module(name)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\junio\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py", line 90, in import_module       
+  File "[PYTHON_ROOT]\Python312\Lib\importlib\__init__.py", line 90, in import_module       
     return _bootstrap._gcd_import(name[level:], package, level)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
@@ -575,24 +575,24 @@ ModuleNotFoundError: No module named 'tabulate'
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 115, in <module>
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 115, in <module>
     main()
-  File "c:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\scripts\07_compare_results.py", line 101, in main
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\scripts\07_compare_results.py", line 101, in main
     f.write(sdf[["model", "mAP50", "mAP50_95", "precision", "recall", "weights"]].to_markdown(index=False))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\.venv\Lib\site-packages\pandas\core\frame.py", line 2983, in to_markdown
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\.venv\Lib\site-packages\pandas\core\frame.py", line 2983, in to_markdown
     tabulate = import_optional_dependency("tabulate")
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\.venv\Lib\site-packages\pandas\compat\_optional.py", line 161, in import_optional_dependency
+  File "[SKRIPSI_ROOT]\yolov8_benur_project\.venv\Lib\site-packages\pandas\compat\_optional.py", line 161, in import_optional_dependency
     raise ImportError(msg) from err
 ImportError: `Import tabulate` failed.  Use pip or conda to install the tabulate package.
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> pip install tabulate
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> pip install tabulate
 Collecting tabulate
   Downloading tabulate-0.9.0-py3-none-any.whl.metadata (34 kB)
 Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
 Installing collected packages: tabulate
 Successfully installed tabulate-0.9.0
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/07_compare_results.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/07_compare_results.py"
 
 ======================================================================
 STEP 14 (FIX) - COMPARE RESULTS (global best.pt search)
@@ -607,14 +607,14 @@ Weights yang akan dipakai:
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 113 layers, 68,124,531 parameters, 0 gradients, 257.4 GFLOPs
 val: Fast image access  (ping: 0.10.1 ms, read: 775.8155.9 MB/s, size: 243.0 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.5s/it 1.3s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.2it/s 1.6s
                    all         22        182      0.931      0.812      0.898      0.497
 Speed: 3.5ms preprocess, 61.2ms inference, 0.0ms loss, 2.8ms postprocess per image
 [EVAL] yolov8x split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 1024.8529.8 MB/s, size: 265.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 5.7s/it 1.7s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0it/s 1.9s
                    all         21        125      0.908      0.848      0.907      0.535
 Speed: 1.3ms preprocess, 61.1ms inference, 0.0ms loss, 1.0ms postprocess per image
@@ -622,14 +622,14 @@ Speed: 1.3ms preprocess, 61.1ms inference, 0.0ms loss, 1.0ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 113 layers, 43,607,379 parameters, 0 gradients, 164.8 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 2056.9587.4 MB/s, size: 330.1 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.1s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.4it/s 1.4s
                    all         22        182      0.907      0.857       0.91      0.519
 Speed: 1.6ms preprocess, 36.5ms inference, 0.0ms loss, 1.2ms postprocess per image
 [EVAL] yolov8l split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1521.2518.3 MB/s, size: 204.2 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.3s/it 1.3s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.4it/s 1.4s
                    all         21        125       0.87       0.84       0.91      0.563
 Speed: 1.4ms preprocess, 36.7ms inference, 0.0ms loss, 1.2ms postprocess per image
@@ -637,14 +637,14 @@ Speed: 1.4ms preprocess, 36.7ms inference, 0.0ms loss, 1.2ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 93 layers, 25,840,339 parameters, 0 gradients, 78.7 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1584.4555.5 MB/s, size: 340.0 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.3s/it 1.0s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.8it/s 1.1s
                    all         22        182      0.945      0.885      0.958      0.543
 Speed: 1.2ms preprocess, 23.9ms inference, 0.0ms loss, 1.4ms postprocess per image
 [EVAL] yolov8m split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.00.0 ms, read: 1268.3316.6 MB/s, size: 324.9 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.0s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.5it/s 1.3s
                    all         21        125       0.91       0.84      0.911      0.574
 Speed: 1.6ms preprocess, 25.5ms inference, 0.0ms loss, 1.4ms postprocess per image
@@ -652,14 +652,14 @@ Speed: 1.6ms preprocess, 25.5ms inference, 0.0ms loss, 1.4ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOPs
 val: Fast image access  (ping: 0.10.1 ms, read: 1049.8407.8 MB/s, size: 305.0 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.9s/it 1.2s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.3s
                    all         22        182      0.924      0.935      0.963      0.569
 Speed: 2.8ms preprocess, 19.9ms inference, 0.0ms loss, 0.8ms postprocess per image
 [EVAL] yolov8s split=test
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.0 ms, read: 939.3227.0 MB/s, size: 300.7 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
                    all         21        125      0.912      0.872      0.927       0.59
 Speed: 2.9ms preprocess, 18.8ms inference, 0.0ms loss, 1.0ms postprocess per image
@@ -667,7 +667,7 @@ Speed: 2.9ms preprocess, 18.8ms inference, 0.0ms loss, 1.0ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1626.8465.6 MB/s, size: 324.5 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
                    all         21        125      0.912      0.872      0.927       0.59
 Speed: 2.9ms preprocess, 18.8ms inference, 0.0ms loss, 1.0ms postprocess per image
@@ -675,16 +675,16 @@ Speed: 2.9ms preprocess, 18.8ms inference, 0.0ms loss, 1.0ms postprocess per ima
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1626.8465.6 MB/s, size: 324.5 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
 [EVAL] yolov8n split=val
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
 val: Fast image access  (ping: 0.00.0 ms, read: 1626.8465.6 MB/s, size: 324.5 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
 val: Fast image access  (ping: 0.00.0 ms, read: 1626.8465.6 MB/s, size: 324.5 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\valid\labels.cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
 .cache... 22 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 22/22  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.8s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.6it/s 1.2s
@@ -700,50 +700,50 @@ Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
 val: Fast image access  (ping: 0.10.1 ms, read: 828.7538.9 MB/s, size: 331.3 KB)
 val: Fast image access  (ping: 0.10.1 ms, read: 828.7538.9 MB/s, size: 331.3 KB)
-val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.val: Scanning C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
+val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.val: Scanning [SKRIPSI_ROOT]\yolov8_benur_project\data\extracted\dataset\test\labels.cache... 21 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 21/21  0.0s
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.6s/it 1.1s                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.7it/s 1.2s
                    all         21        125      0.886      0.888      0.925      0.557
 Speed: 2.7ms preprocess, 16.6ms inference, 0.0ms loss, 1.2ms postprocess per image
 
-[SAVED] C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\outputs\reports\comparison.csv
-[SAVED] C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\outputs\reports\comparison.md
+[SAVED] [SKRIPSI_ROOT]\yolov8_benur_project\outputs\reports\comparison.csv
+[SAVED] [SKRIPSI_ROOT]\yolov8_benur_project\outputs\reports\comparison.md
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 
-
-
-
-
-
-Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
-
-
-
-Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
 
 
 
 
 
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
+
+
+
+Silakan buka: outputs/reports/comparison.md
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
+
+
+
+
+
+Silakan buka: outputs/reports/comparison.md
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 
 
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 Silakan buka: outputs/reports/comparison.md
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> ^C
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project> & "C:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/.venv/Scripts/python.exe" "c:/Users/junio/OneDrive/Documents/semester 7/SKRIPSI/yolov8_benur_project/scripts/8_format_comparison.py"
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> ^C
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project> & "[SKRIPSI_ROOT]/yolov8_benur_project/.venv/Scripts/python.exe" "[SKRIPSI_ROOT]/yolov8_benur_project/scripts/8_format_comparison.py"
 Selesai.
 File rapi disimpan di:
-C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project\outputs\reports\comparison_clean.csv     
-(.venv) PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\yolov8_benur_project>
+[SKRIPSI_ROOT]\yolov8_benur_project\outputs\reports\comparison_clean.csv     
+(.venv) PS [SKRIPSI_ROOT]\yolov8_benur_project>
 
 
 

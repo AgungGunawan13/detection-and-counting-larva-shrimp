@@ -1,4 +1,4 @@
-PS C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian> python YOLOv8\scripts\01_unzip_dataset.py
+PS [SKRIPSI_ROOT]\coding\pengujian> python YOLOv8\scripts\01_unzip_dataset.py
 
 ======================================================================
 UNZIP DATASET

@@ -1,11 +1,11 @@
 
-Validating C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8n\train_20260418-000303\weights\best.pt...
+Validating [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8n\train_20260418-000303\weights\best.pt...
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB) 
 Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━─────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━──                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 8.9it/s 0.4s
                    all         30        246      0.891      0.841      0.901      0.468
 Speed: 0.5ms preprocess, 3.8ms inference, 0.0ms loss, 2.5ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8n\train_20260418-000303
+Results saved to [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8n\train_20260418-000303
 [DONE] yolov8n
 
 
@@ -21,16 +21,16 @@ EarlyStopping: Training stopped early as no improvement observed in last 20 epoc
 To update EarlyStopping(patience=20) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
 
 54 epochs completed in 1.999 hours.
-Optimizer stripped from C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\last.pt, 136.7MB
-Optimizer stripped from C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\best.pt, 136.7MB
+Optimizer stripped from [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\last.pt, 136.7MB
+Optimizer stripped from [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\best.pt, 136.7MB
 
-Validating C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\best.pt...
+Validating [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303\weights\best.pt...
 Ultralytics 8.4.14  Python-3.12.1 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB) 
 Model summary (fused): 113 layers, 68,124,531 parameters, 0 gradients, 257.4 GFLOPs
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 7% ╸───────────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━─────────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━───────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸─────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━────                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸──                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━─                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 15/15 10.5it/s 1.4s
                    all         30        246      0.784      0.671      0.673      0.263
 Speed: 0.5ms preprocess, 41.4ms inference, 0.0ms loss, 1.5ms postprocess per image
-Results saved to C:\Users\junio\OneDrive\Documents\semester 7\SKRIPSI\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303
+Results saved to [SKRIPSI_ROOT]\coding\pengujian\YOLOv8\outputs\runs\yolov8x\train_20260418-000303
 [DONE] yolov8x
 
 Selesai.

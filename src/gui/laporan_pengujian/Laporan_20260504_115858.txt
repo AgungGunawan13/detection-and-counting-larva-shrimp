@@ -1,0 +1,17 @@
+====================================
+   LAPORAN PENGUJIAN REAL-TIME
+====================================
+Waktu Pengujian : 2026-05-04 11:58:58
+Durasi          : 0 menit 22 detik
+Konfigurasi     : Arah=TOP_BOTTOM, Conf=0.15
+------------------------------------
+HASIL DETEKSI
+Total Benur     : 2 ekor
+Total Frame     : 102 frame
+------------------------------------
+PERFORMA SISTEM
+Rata-rata CPU   : 71.8 %
+Rata-rata GPU   : 31.9 %
+Inference Time  : 191.04 ms/frame
+Rata-rata FPS   : 5.23 FPS
+====================================
